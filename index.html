@@ -39,7 +39,7 @@
                         <a class="nav-link " href="#">Register</a>
                       </li>
                     </ul>
-                    <form class="d-flex justify-content-center justify-content-md-end " role="search">
+                    <form class="d-flex justify-content-center justify-content-lg-end " role="search">
                       <button class="btn btn-outline-primary fs-3 fw-bold" type="submit">Register</button>
                     </form>
                   </div>
@@ -100,7 +100,7 @@
           <!-- Courses  -->
 
           <div id="courses" class=" row mb-2 mb-md-5 g-3 g-lg-5  ">
-              <div class="course d-md-flex col-md-12 col-lg-6 border border-2">
+              <div class="course d-md-flex col-md-12 col-lg-6 border border-2  rounded">
                 <img class="img-fluid" src="images/course/course-1.png" alt="">
                 <div class="course-details ms-md-3 p-md-3 d-md-flex flex-md-column justify-content-center ">
                   <h3 class="fw-bold text-dark">Fundamental of UI/UX Design</h3>
@@ -108,7 +108,7 @@
                   <h6 class="text-primary fw-bolder fs-3">Price: 20$ </h6>
                 </div>
               </div>
-              <div class="course d-md-flex col-md-12 col-lg-6 border border-2 ">
+              <div class="course d-md-flex col-md-12 col-lg-6 border border-2  rounded ">
                 <img class="img-fluid" src="images/course/course-2.png" alt="">
                 <div class="course-details ms-md-3 p-md-3 d-md-flex flex-md-column justify-content-center ">
                   <h3 class="fw-bold text-dark">Javascript Basic to advanced</h3>
@@ -116,7 +116,7 @@
                   <h6 class="text-primary fw-bolder fs-3">Price: 20$ </h6>
                 </div>
               </div>
-              <div class="course d-md-flex col-md-12 col-lg-6 border border-2 ">
+              <div class="course d-md-flex col-md-12 col-lg-6 border border-2  rounded ">
                 <img class="img-fluid" src="images/course/course-3.png" alt="">
                 <div class="course-details ms-md-3 p-md-3 d-md-flex flex-md-column justify-content-center ">
                   <h3 class="fw-bold text-dark">Fullstack Web Development</h3>
@@ -124,7 +124,7 @@
                   <h6 class="text-primary fw-bolder fs-3">Price: 20$ </h6>
                 </div>
               </div>
-              <div class="course d-md-flex col-md-12 col-lg-6 border border-2 ">
+              <div class="course d-md-flex col-md-12 col-lg-6 border border-2  rounded ">
                 <img class="img-fluid" src="images/course/course-4.png" alt="">
                 <div class="course-details ms-md-3 p-md-3 d-md-flex flex-md-column justify-content-center ">
                   <h3 class="fw-bold text-dark">Photography Basic Rules</h3>
@@ -132,7 +132,7 @@
                   <h6 class="text-primary fw-bolder fs-3">Price: 20$ </h6>
                 </div>
               </div>
-              <div class="course d-md-flex col-md-12 col-lg-6 border border-2 ">
+              <div class="course d-md-flex col-md-12 col-lg-6 border border-2  rounded ">
                 <img class="img-fluid" src="images/course/course-5.png" alt="">
                 <div class="course-details ms-md-3 p-md-3 d-md-flex flex-md-column justify-content-center ">
                   <h3 class="fw-bold text-dark">Digital Marketing</h3>
@@ -140,7 +140,7 @@
                   <h6 class="text-primary fw-bolder fs-3">Price: 20$ </h6>
                 </div>
               </div>
-              <div class="course d-md-flex col-md-12 col-lg-6 border border-2 ">
+              <div class="course d-md-flex col-md-12 col-lg-6 border border-2  rounded ">
                 <img class="img-fluid" src="images/course/course-6.png" alt="">
                 <div class="course-details ms-md-3 p-md-3 d-md-flex flex-md-column justify-content-center ">
                   <h3 class="fw-bold text-dark">Motion Graphics</h3>
@@ -148,10 +148,116 @@
                   <h6 class="text-primary fw-bolder fs-3">Price: 20$ </h6>
                 </div>
               </div>
-              <div class="d-flex justify-content-center"><button class=" btn btn-primary w-auto">View All</button></div>
-              
+              <div class="d-flex justify-content-center"><button class=" btn btn-primary w-auto">View All</button></div> 
           </div>
-          
+          <!-- Ready To Join Section  -->
+          <div class="ready bg-opacity-50 rounded">
+            <div class="d-lg-flex justify-content-lg-around align-items-center m-3 p-4">
+              <div>
+                <h1 class="fs-3 text-white fw-bolder text-center text-lg-start ">Ready To Join?</h1>
+              <p class=" text-white text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              </div>
+              <div class="d-flex justify-content-center"><!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  Register Now
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Register Now</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div> 
+            </div>
+          </div>
+
+          <section id="questions" class="m-3 m-md-5">
+                  <div>
+                    <h1 class="fw-bold text-dark fs-1 text-center">Frequently Asked Questions</h1>
+                    <p class="fw-bold text-black-50 text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                  </div>
+                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Flexbox VS Grid
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                          <strong>Basic difference between them is dimension</strong> Flex box is one dimensional & Grid is two dimensional <code>Flexbox works from the content out & Grid works from the layout in. </code>By Flexbox it is easy to align an item to its center .
+                          in addition , Flexbox, gives you more flexibility while working on either element row or column. HTML markup and CSS will be easy to manage in this type of scenario.
+                          Flex Container is the parent element while Flex Item represents the children. The Flex Container can ensure balanced representation by adjusting item dimensions. This allows developers to design for fluctuating screen sizes.
+Grid supports both implicit and explicit content placement. Its inbuilt automation allows it to automatically extend line items and copy values into the new creation from the preceding item.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                         Bootstrap VS Tailwind
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                          <strong>Bootstrap</strong> 
+                          
+                           is an open-supply framework this is used to design responsive websites higher, faster, and simpler. It’s miles a beginner-pleasant and the most popular open-supply framework that includes HTML, CSS, and JavaScript. Bootstrap may be used to create net programs with any server-side generation like Java, PHP, and so on., and its responsive layout allows structures like cell telephones, drugs, and computers. Bootstrap incorporates CSS and JavaScript-primarily based layout templates for typography, bureaucracy, buttons, navigation, icons, and different interface additives. It’s far based on item-oriented CSS. Bootstrap helps to design and increase website templates fast.
+                           <br>
+                          <strong>Tailwind CSS </strong> is basically a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, low-level CSS framework that gives you all the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          What is css box model?
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                          <strong>CSS Box Model</strong> 
+                          A CSS box model is a compartment that includes numerous assets, such as edge, border, padding and material. It is used to develop the design and structure of a web page. It can be used as a set of tools to personalize the layout of different components. According to the CSS box model, the web browser supplies each element as a square prism.
+                          The following diagram illustrates how the CSS properties of width, height, padding, border and margin dictate that how much space an attribute will occupy on a web page.
+                          the CSS box model contains the different properties in CSS.
+                        </div>
+                      </div>
+                    </div>
+                  </div>   
+
+          </section>
 
         </Main>
 
